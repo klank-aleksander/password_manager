@@ -1,0 +1,3 @@
+/Users/olek/Documents/CV/cv_projects/c++/password_manager/cmake-build-debug/CMakeFiles/projekt.dir
+/Users/olek/Documents/CV/cv_projects/c++/password_manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/olek/Documents/CV/cv_projects/c++/password_manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
