@@ -287,6 +287,8 @@ bool zweryfikuj_hash(const string filePath, const string haslo_szyfrujace){
     inStream.close();
 
     string hash_podanego_hasla = wygeneruj_hash(haslo_szyfrujace);
+    cout << hash_podanego_hasla << '\n';
+    cout << hash_hasla << '\n';
     return (hash_podanego_hasla == hash_hasla);
 }
 
@@ -785,8 +787,12 @@ void posortuj_hasla(const string filePath, const string haslo_szyfrujace, vector
 
 int main() {
     string filePath;
-    vector<string> pliki = {"/Users/olek/Documents/CV/cv_projects/c++/user1.txt",
-                            "C:\\Users\\alekl\\CLionProjects\\projekt\\user2.txt"};
+    vector<string> pliki = {
+        "/Users/olek/Documents/CV/cv_projects/c++/user1.txt",
+        "/Users/olek/Documents/CV/cv_projects/c++/password_manager/user2.txt",
+        "/Users/olek/Documents/CV/cv_projects/c++/password_manager/user3.txt"
+    };
+
     string haslo_szyfrujace;
     set<string> baza_kategoria;
     vector<Haslo> baza_haslo;
